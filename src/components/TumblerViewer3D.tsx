@@ -31,7 +31,7 @@ const MODEL_MODE_OPTIONS: { id: TumblerModelMode; label: string }[] = [
   { id: 'tripo', label: '3D 모델링 버전' },
 ];
 
-const TRIPO_GLB_URL = '/models/warm400-tripo.glb';
+const TRIPO_GLB_URL = `${import.meta.env.BASE_URL}models/warm400-tripo.glb`;
 const PROMPT_TUMBLER_HEIGHT = 1.61;
 const MIN_DISTANCE = 2.0;
 const MAX_DISTANCE = 5.2;
