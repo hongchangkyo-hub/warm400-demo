@@ -1,0 +1,6 @@
+{
+  "name": "WARM 400 텀블러",
+  "description": "하루 한 번 채우면, 하교할 때까지 따뜻하게. 보온 7시간, 400ml 용량, 원터치 밀폐 기능을 갖춘 WARM 400 텀블러 제품 소개 페이지.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

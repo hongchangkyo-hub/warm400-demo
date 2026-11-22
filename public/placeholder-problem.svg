@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="문제 제기 세로 사진 자리 이미지">
+  <rect width="600" height="800" fill="#E5E7EB" />
+  <rect x="24" y="24" width="552" height="752" fill="none" stroke="#D1D5DB" stroke-width="2" />
+  <text x="300" y="392" text-anchor="middle" font-family="'Noto Sans KR', sans-serif" font-size="22" font-weight="500" fill="#6B7280">문제 제기 사진 (세로)</text>
+  <text x="300" y="428" text-anchor="middle" font-family="'Noto Sans KR', sans-serif" font-size="16" fill="#9CA3AF">3:4</text>
+</svg>

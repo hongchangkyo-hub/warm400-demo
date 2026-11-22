@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #ffffff;
+    color: #111827;
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #ffffff;
+    color: #111827;
+    margin: 0;
+  }
+}
+
+@keyframes warm400-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -8px, 0);
+  }
+}
+
+@keyframes warm400-pop {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0) scale(0.92);
+  }
+  65% {
+    opacity: 1;
+    transform: translate3d(0, -2px, 0) scale(1.04);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes warm400-rise {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.warm400-hero-float {
+  animation: warm400-float 4s ease-in-out infinite;
+  will-change: transform;
+}
+
+.warm400-card-pop {
+  animation: warm400-pop 540ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity;
+}
+
+.warm400-rise-in {
+  animation: warm400-rise 560ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .warm400-hero-float,
+  .warm400-card-pop,
+  .warm400-rise-in {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    will-change: auto !important;
+  }
+}
+

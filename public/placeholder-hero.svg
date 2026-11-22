@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="WARM 400 대표 사진 자리 이미지">
+  <rect width="800" height="600" fill="#E5E7EB" />
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#D1D5DB" stroke-width="2" />
+  <text x="400" y="292" text-anchor="middle" font-family="'Noto Sans KR', sans-serif" font-size="24" font-weight="500" fill="#6B7280">대표 사진 (4:3)</text>
+  <text x="400" y="328" text-anchor="middle" font-family="'Noto Sans KR', sans-serif" font-size="16" fill="#9CA3AF">WARM 400 텀블러</text>
+</svg>
